@@ -3,14 +3,14 @@
 
 alert("¡Bienvenidx a Psicologia y Cafe!\nEstás a punto de agendar tu primera sesión de psicoterapia online.\nEste es el primer paso hacia tu bienestar emocional.\nPor favor, completa tus datos para agendar una sesión.")
 
-funcion mostrarcalendario(){
+function mostrarcalendario(){
     console.log("Dias y horarios disponibles")
     }
 
     mostrarcalendario()
 
-const dias [lunes,martes,miercoles,jueves,viernes]
-const horarios [09.00,10.00,11.00,12.00,13.00,14.00,15.00,16.00,17.00,18.00,19.00,20.00]
+const dias = ["lunes","martes","miercoles","jueves","viernes"]
+const horarios = ["09.00","10.00","11.00","12.00","13.00","14.00","15.00","16.00","17.00","18.00","19.00","20.00"]
 
 let nombre = prompt("¿Cual es tu nombre?")
 let edad = prompt("¿Que edad tienes?")
@@ -35,8 +35,8 @@ const contacto = 393513693972
 console.log("Numero de contacto:" + contacto)
 
 
-funcion modificarcalendario (){
-  alert("Estas por modificar tu sesion. Quieres continuar?")
+function modificarcalendario (){
+  alert("Estas por modificar tu sesion. ¿Quieres continuar?")
   }
 
   let modificar = si
@@ -49,7 +49,7 @@ funcion modificarcalendario (){
       }
 
 function eliminarsesion (){
-  alert("Estas por cancelar tu sesion. Quieres continuar?")
+  alert("Estas por cancelar tu sesion. ¿Quieres continuar?")
   }
 
   let cancelarsesion = si
@@ -57,8 +57,10 @@ function eliminarsesion (){
   if (cancelarsesion == si){
     console.log("Lo lamento, espero nos veamos pronto")
     } else {
-      console.log("Genial!Nos vemos en tu dia y horario seleccionados")
+      console.log("Genial! Nos vemos en tu dia y horario seleccionados")
       }
+
+
 
 
 
