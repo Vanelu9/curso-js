@@ -39,6 +39,8 @@ function modificarcalendario (){
   alert("Estas por modificar tu sesion. ¿Quieres continuar?")
   }
 
+modificarcalendario()
+
   let modificar = si
 
 
@@ -52,6 +54,8 @@ function eliminarsesion (){
   alert("Estas por cancelar tu sesion. ¿Quieres continuar?")
   }
 
+  eliminarsesion()
+
   let cancelarsesion = si
 
   if (cancelarsesion == si){
@@ -59,6 +63,8 @@ function eliminarsesion (){
     } else {
       console.log("Genial! Nos vemos en tu dia y horario seleccionados")
       }
+
+
 
 
 
