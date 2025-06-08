@@ -12,6 +12,10 @@ function mostrarcalendario(){
 const dias = ["lunes","martes","miercoles","jueves","viernes"]
 const horarios = ["09.00","10.00","11.00","12.00","13.00","14.00","15.00","16.00","17.00","18.00","19.00","20.00"]
 
+for (let i= 0; i >=5; i++){
+  console.log("dia seleccionado")
+  }
+
 let nombre = prompt("¿Cual es tu nombre?")
 let edad = prompt("¿Que edad tienes?")
 let diasesion = prompt("¿Que dia quieres agendar tu sesion?")
@@ -21,7 +25,7 @@ let motivodeconsulta = prompt ("¿Cual es tu motivo de consulta?")
 let sesionconfirmada = true
 
 if (sesionconfirmada) {
-  console.log("Gracias por agendar tu sesión. Nos vemos pronto :)")
+  console.log(nombre+"Gracias por agendar tu sesión. Nos vemos pronto :)")
 } else {
   console.log("La sesión aún no fue confirmada. Por favor, completa tus datos para confirmarla.")
 }
